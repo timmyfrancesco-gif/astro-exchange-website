@@ -1,0 +1,11 @@
+{
+  "name": "astro-code",
+  "private": true,
+  "type": "module",
+  "description": "Browser-only Claude chat with Claude Code-style tools. No build step: serve this folder as static files.",
+  "scripts": {
+    "serve": "node test/serve.mjs",
+    "test": "node test/run-tests.mjs",
+    "lint": "eslint js test sandbox.html --no-warn-ignored"
+  }
+}
